@@ -9,24 +9,26 @@ body{
 }
 
 .main-wraper{
-    max-width: 800px;
     margin: 0 auto;
+    width: 80%;
 }
 
 .title-ct{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
+    width:100%;
+    margin: 0 auto;
+    padding: 25px 0; 
 }
 
 .title-ct h1{
     color: crimson;
-    padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .title-ct p{
     font-size: 10px;
-    padding-bottom: 10px; 
 }
 
 .card-ct{
@@ -41,14 +43,13 @@ body{
 .card-item{
     display: flex;
     background-color: rgb(126, 138, 206);
-    min-width: 100px;
+    min-width: 250px;
+    width: calc((100% / 3) - 60px);
     margin: 20px 20px;
     box-shadow:  5px 5px 5px #a145cf;
-}
-
-.card-item{
     align-items: center;
 }
+
 
 .card-item h4,h5{
     color:white;
@@ -59,10 +60,10 @@ body{
 }
 
 .card-item img{
-    width: 85%;
+    width: 100px;
+    margin-right: 8px;
 }
 
 .card-item h4,h5,h6{
     padding-bottom: 5px;
-    margin-right:10px;
 };
