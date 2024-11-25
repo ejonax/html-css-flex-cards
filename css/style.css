@@ -46,22 +46,23 @@ body{
     box-shadow:  5px 5px 5px #dedede;
 }
 
-.card-item-element{
-    align-self: center;
+.card-item{
+    align-items: center;
 }
 
-.card-item-element h4,h5{
+.card-item h4,h5{
     color:white;
 }
 
-.card-item-element h6{
+.card-item h6{
     color:rgb(27, 101, 175);
 }
 
-.card-item-element img{
-    width: 70%;
+.card-item img{
+    width: 50%;
 }
 
-.card-item-element h4,h5,h6{
+.card-item h4,h5,h6{
     padding-bottom: 5px;
+    margin-right:10px;
 };
